@@ -2,9 +2,14 @@
 
 A Claude Code skill for pixel-perfect website cloning. Uses a 5-phase pipeline combining browser automation, real CSS extraction via `getComputedStyle`, and parallel builder agents to reproduce any website with high fidelity.
 
-## Install
+## Installation
 
-Drop `SKILL.md` into your Claude Code skills directory (`.claude/skills/` or as configured).
+Copy `skill.md` into your Claude Code skills directory:
+
+```bash
+mkdir -p ~/.claude/skills/web-clone
+cp skill.md ~/.claude/skills/web-clone/skill.md
+```
 
 ## Usage
 
